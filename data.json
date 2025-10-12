@@ -1,0 +1,50 @@
+{
+  "personal": {
+    "name": "Kasintha Hiripitiya",
+    "title": "Creative Web Developer",
+    "profile_image": "https://picsum.photos/400",
+    "email": "hello@alexdoe.com",
+    "social_links": {
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/",
+      "twitter": "https://twitter.com/"
+    }
+  },
+  "about": "I'm a passionate web developer with a knack for creating beautiful, functional, and user-centered digital experiences. With a strong foundation in front-end technologies, I specialize in turning complex problems into elegant, interactive solutions. I love to bring ideas to life in the browser.",
+  "skills": [
+    "HTML5",
+    "CSS3 & Sass",
+    "JavaScript (ES6+)",
+    "React",
+    "Node.js",
+    "UI/UX Design",
+    "Responsive Design",
+    "Git & GitHub"
+  ],
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "A responsive e-commerce website built with modern front-end technologies to provide a seamless shopping experience.",
+      "image": "https://picsum.photos/400",
+      "tags": ["JavaScript", "React", "CSS"],
+      "live_link": "#",
+      "code_link": "#"
+    },
+    {
+      "title": "Project Two",
+      "description": "An interactive data visualization dashboard that displays real-time analytics using D3.js and a custom API.",
+      "image": "https://picsum.photos/400",
+      "tags": ["API", "D3.js", "Dashboard"],
+      "live_link": "#",
+      "code_link": "#"
+    },
+    {
+      "title": "Project Three",
+      "description": "A sleek and modern landing page for a startup, focusing on performance and clean UI/UX design.",
+      "image": "https://picsum.photos/400",
+      "tags": ["HTML", "CSS", "UI/UX"],
+      "live_link": "#",
+      "code_link": "#"
+    }
+  ]
+}
