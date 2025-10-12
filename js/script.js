@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Theme Switcher ---
     // Check for saved theme in localStorage
-    const currentTheme = localStorage.getItem('theme');
+    const systemDefault = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+    const currentTheme = localStorage.getItem('theme') || systemDefault;
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
         if (currentTheme === 'dark') {
