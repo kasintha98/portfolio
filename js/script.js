@@ -56,6 +56,40 @@ document.addEventListener('DOMContentLoaded', () => {
         // About Section
         document.getElementById('about-text').textContent = data.about;
 
+        // Work section
+        const workDiv = document.getElementById('work-div');
+        workDiv.innerHTML = data.work.map(work => `
+            <div class="project-card">
+                <div class="project-card-content">
+                    <h3>${work.title}</h3>
+                    <p>${work.description}</p>
+                </div>
+            </div>
+        `).join('');
+
+        // Education section
+        const educationDiv = document.getElementById('education-div');
+        educationDiv.innerHTML = data.education.map(education => `
+            <div class="project-card">
+                <div class="project-card-content">
+                    <h3>${education.title}</h3>
+                    <p>${education.description}</p>
+                </div>
+            </div>
+        `).join('');
+
+        // Publications section
+        const publicationDiv = document.getElementById('publication-div');
+        publicationDiv.innerHTML = data.publication.map(publication => `
+            <div class="project-card">
+                <div class="project-card-content">
+                    <h3>${publication.title}</h3>
+                    <p>${publication.description}</p>
+                </div>
+            </div>
+        `).join('');
+
+
         // Projects Section
         const projectsGrid = document.getElementById('projects-grid');
         projectsGrid.innerHTML = data.projects.map(project => `

@@ -21,12 +21,43 @@
     "Responsive Design",
     "Git & GitHub"
   ],
+  "work": [
+    {
+      "title": "a",
+      "description": "aa",
+      "company": "aa",
+      "from": "2025",
+      "to": "2026"
+    }
+  ],
+  "education": [
+    {
+      "title": "bb",
+      "description": "bb",
+      "company": "bb",
+      "from": "2025",
+      "to": "2026"
+    }
+  ],
+   "publication": [
+    {
+      "title": "bb",
+      "description": "bb",
+      "company": "bb",
+      "from": "2025",
+      "to": "2026"
+    }
+  ],
   "projects": [
     {
       "title": "Project One",
       "description": "A responsive e-commerce website built with modern front-end technologies to provide a seamless shopping experience.",
       "image": "https://picsum.photos/400",
-      "tags": ["JavaScript", "React", "CSS"],
+      "tags": [
+        "JavaScript",
+        "React",
+        "CSS"
+      ],
       "live_link": "#",
       "code_link": "#"
     },
@@ -34,7 +65,11 @@
       "title": "Project Two",
       "description": "An interactive data visualization dashboard that displays real-time analytics using D3.js and a custom API.",
       "image": "https://picsum.photos/400",
-      "tags": ["API", "D3.js", "Dashboard"],
+      "tags": [
+        "API",
+        "D3.js",
+        "Dashboard"
+      ],
       "live_link": "#",
       "code_link": "#"
     },
@@ -42,7 +77,11 @@
       "title": "Project Three",
       "description": "A sleek and modern landing page for a startup, focusing on performance and clean UI/UX design.",
       "image": "https://picsum.photos/400",
-      "tags": ["HTML", "CSS", "UI/UX"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "UI/UX"
+      ],
       "live_link": "#",
       "code_link": "#"
     }
