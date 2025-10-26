@@ -1,24 +1,36 @@
 /* --- General Setup & Variables --- */
 :root {
     /* Light Mode Palette */
-    --background: #F6E8EA; /* Light Sand */
-    --text: #2E4057; /* Soft Navy */
-    --primary: #335C67; /* Deep Teal */
-    --secondary: #86BBD8; /* Seafoam Blue */
-    --accent: #D9DBF1; /* Mist Gray */
+    --background: #F6E8EA;
+    /* Light Sand */
+    --text: #2E4057;
+    /* Soft Navy */
+    --primary: #335C67;
+    /* Deep Teal */
+    --secondary: #86BBD8;
+    /* Seafoam Blue */
+    --accent: #D9DBF1;
+    /* Mist Gray */
     --card-bg: #ffffff;
+    --gray: #CBCBCB;
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
     /* Dark Mode Palette */
-    --background: #2E4057; /* Soft Navy */
-    --text: #F6E8EA; /* Light Sand */
-    --primary: #86BBD8; /* Seafoam Blue */
-    --secondary: #335C67; /* Deep Teal */
-    --accent: #3b526e; 
-    --card-bg: #335C67; /* Deep Teal */
+    --background: #2E4057;
+    /* Soft Navy */
+    --text: #F6E8EA;
+    /* Light Sand */
+    --primary: #86BBD8;
+    /* Seafoam Blue */
+    --secondary: #335C67;
+    /* Deep Teal */
+    --accent: #3b526e;
+    --card-bg: #335C67;
+    /* Deep Teal */
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    --gray: #EEEEEE;
 }
 
 * {
@@ -37,13 +49,20 @@ body {
 }
 
 /* --- Reusable Components & Typography --- */
-h1, h2 {
+h1,
+h2 {
     color: var(--primary);
     margin-bottom: 1rem;
 }
 
-h1 { font-size: 3rem; }
-h2 { font-size: 2.2rem; text-align: center; }
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
+}
 
 .btn {
     display: inline-block;
@@ -66,10 +85,13 @@ h2 { font-size: 2.2rem; text-align: center; }
     max-width: 1100px;
     margin: 0 auto;
     padding: 5rem 2rem;
-    opacity: 0; /* For scroll animation */
-    transform: translateY(20px); /* For scroll animation */
+    opacity: 0;
+    /* For scroll animation */
+    transform: translateY(20px);
+    /* For scroll animation */
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
+
 .content-section.visible {
     opacity: 1;
     transform: translateY(0);
@@ -87,9 +109,11 @@ header {
     z-index: 100;
     transition: background-color 0.3s ease;
 }
+
 [data-theme="dark"] header {
     background-color: rgba(46, 64, 87, 0.8);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -98,23 +122,31 @@ nav {
     margin: 0 auto;
     padding: 1rem 2rem;
 }
+
 nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary);
     text-decoration: none;
 }
+
+nav .logo img {
+    width: 40px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
 }
+
 nav ul li a {
     text-decoration: none;
     color: var(--text);
     font-weight: 500;
     transition: color 0.3s ease;
 }
+
 nav ul li a:hover {
     color: var(--primary);
 }
@@ -125,32 +157,49 @@ nav ul li a:hover {
     align-items: center;
     gap: 0.5rem;
 }
+
 .theme-switch {
     position: relative;
     display: inline-block;
     width: 50px;
     height: 26px;
 }
-.theme-switch input { display: none; }
+
+.theme-switch input {
+    display: none;
+}
+
 .slider {
     position: absolute;
     cursor: pointer;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: var(--accent);
     transition: .4s;
     border-radius: 34px;
 }
+
 .slider:before {
     position: absolute;
     content: "";
-    height: 18px; width: 18px;
-    left: 4px; bottom: 4px;
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
     background-color: white;
     transition: .4s;
     border-radius: 50%;
 }
-input:checked + .slider { background-color: var(--primary); }
-input:checked + .slider:before { transform: translateX(24px); }
+
+input:checked+.slider {
+    background-color: var(--primary);
+}
+
+input:checked+.slider:before {
+    transform: translateX(24px);
+}
 
 /* --- Hero Section --- */
 .hero-section {
@@ -163,9 +212,11 @@ input:checked + .slider:before { transform: translateX(24px); }
     margin: 0 auto;
     padding: 2rem;
 }
+
 .hero-content {
     max-width: 500px;
 }
+
 .hero-image-container {
     width: 300px;
     height: 300px;
@@ -174,20 +225,24 @@ input:checked + .slider:before { transform: translateX(24px); }
     box-shadow: var(--shadow);
     border: 5px solid var(--primary);
 }
+
 .hero-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .social-links {
     margin: 1.5rem 0;
 }
+
 .social-links a {
     color: var(--text);
     font-size: 1.8rem;
     margin-right: 1.5rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }
+
 .social-links a:hover {
     color: var(--primary);
     transform: scale(1.2);
@@ -200,6 +255,7 @@ input:checked + .slider:before { transform: translateX(24px); }
     gap: 2rem;
     margin-top: 2rem;
 }
+
 .project-card {
     background-color: var(--card-bg);
     border-radius: 10px;
@@ -207,21 +263,26 @@ input:checked + .slider:before { transform: translateX(24px); }
     box-shadow: var(--shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
+
 .project-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
+
 .project-card-content {
     padding: 1.5rem;
 }
+
 .project-tags {
     margin: 0.5rem 0 1rem;
 }
+
 .project-tags span {
     background-color: var(--accent);
     color: var(--text);
@@ -230,11 +291,22 @@ input:checked + .slider:before { transform: translateX(24px); }
     font-size: 0.8rem;
     margin-right: 5px;
 }
+
 .project-links a {
     text-decoration: none;
     color: var(--primary);
     font-weight: bold;
     margin-right: 1rem;
+}
+
+.date-span {
+    color: var(--gray);
+}
+
+.date-holder {
+    display: flex;
+    column-gap: 10px;
+    color: var(--gray);
 }
 
 /* --- Skills Section --- */
@@ -245,6 +317,7 @@ input:checked + .slider:before { transform: translateX(24px); }
     gap: 1rem;
     margin-top: 2rem;
 }
+
 .skill-badge {
     background-color: var(--accent);
     color: var(--text);
@@ -263,17 +336,27 @@ footer {
 
 /* --- Responsive Design --- */
 @media (max-width: 768px) {
-    h1 { font-size: 2.5rem; }
-    h2 { font-size: 1.8rem; }
-    
-    nav ul { display: none; } /* Simpler nav for mobile */
-    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    /* Simpler nav for mobile */
+
     .hero-section {
         flex-direction: column-reverse;
         text-align: center;
         min-height: auto;
         padding-top: 6rem;
     }
+
     .hero-image-container {
         width: 200px;
         height: 200px;

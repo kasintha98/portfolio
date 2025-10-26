@@ -1,13 +1,12 @@
 {
   "personal": {
     "name": "Kasintha Hiripitiya",
-    "title": "Creative Web Developer",
-    "profile_image": "https://picsum.photos/400",
+    "title": "Full Stack Developer",
+    "profile_image": "/img/profile.jpeg",
     "email": "hello@alexdoe.com",
     "social_links": {
-      "github": "https://github.com/",
-      "linkedin": "https://linkedin.com/in/",
-      "twitter": "https://twitter.com/"
+      "github": "https://github.com/kasintha98",
+      "linkedin": "https://www.linkedin.com/in/kasintha-kalhara-hiripitiya/"
     }
   },
   "about": "I'm a passionate web developer with a knack for creating beautiful, functional, and user-centered digital experiences. With a strong foundation in front-end technologies, I specialize in turning complex problems into elegant, interactive solutions. I love to bring ideas to life in the browser.",
@@ -21,69 +20,88 @@
     "Responsive Design",
     "Git & GitHub"
   ],
-  "work": [
+  "sections": [
     {
-      "title": "a",
-      "description": "aa",
-      "company": "aa",
-      "from": "2025",
-      "to": "2026"
-    }
-  ],
-  "education": [
-    {
-      "title": "bb",
-      "description": "bb",
-      "company": "bb",
-      "from": "2025",
-      "to": "2026"
-    }
-  ],
-   "publication": [
-    {
-      "title": "bb",
-      "description": "bb",
-      "company": "bb",
-      "from": "2025",
-      "to": "2026"
-    }
-  ],
-  "projects": [
-    {
-      "title": "Project One",
-      "description": "A responsive e-commerce website built with modern front-end technologies to provide a seamless shopping experience.",
-      "image": "https://picsum.photos/400",
-      "tags": [
-        "JavaScript",
-        "React",
-        "CSS"
-      ],
-      "live_link": "#",
-      "code_link": "#"
+      "sectionId": "work",
+      "sectionTitle": "Work Experience",
+      "list": [
+        {
+          "title": "a",
+          "description": "aa",
+          "company": "aa",
+          "from": "2025",
+          "to": "2026"
+        }
+      ]
     },
     {
-      "title": "Project Two",
-      "description": "An interactive data visualization dashboard that displays real-time analytics using D3.js and a custom API.",
-      "image": "https://picsum.photos/400",
-      "tags": [
-        "API",
-        "D3.js",
-        "Dashboard"
-      ],
-      "live_link": "#",
-      "code_link": "#"
+      "sectionId": "education",
+      "sectionTitle": "Education",
+      "list": [
+        {
+          "title": "bb",
+          "description": "bb",
+          "company": "bb",
+          "from": "2025",
+          "to": "2026"
+        }
+      ]
     },
     {
-      "title": "Project Three",
-      "description": "A sleek and modern landing page for a startup, focusing on performance and clean UI/UX design.",
-      "image": "https://picsum.photos/400",
-      "tags": [
-        "HTML",
-        "CSS",
-        "UI/UX"
-      ],
-      "live_link": "#",
-      "code_link": "#"
+      "sectionId": "projects",
+      "sectionTitle": "My Projects",
+      "isGridList": true,
+      "list": [
+        {
+          "title": "Project One",
+          "description": "A responsive e-commerce website built with modern front-end technologies to provide a seamless shopping experience.",
+          "image": "https://picsum.photos/400",
+          "tags": [
+            "JavaScript",
+            "React",
+            "CSS"
+          ],
+          "live_link": "#",
+          "code_link": "#"
+        },
+        {
+          "title": "Project Two",
+          "description": "An interactive data visualization dashboard that displays real-time analytics using D3.js and a custom API.",
+          "image": "https://picsum.photos/400",
+          "tags": [
+            "API",
+            "D3.js",
+            "Dashboard"
+          ],
+          "live_link": "#",
+          "code_link": "#"
+        },
+        {
+          "title": "Project Three",
+          "description": "A sleek and modern landing page for a startup, focusing on performance and clean UI/UX design.",
+          "image": "https://picsum.photos/400",
+          "tags": [
+            "HTML",
+            "CSS",
+            "UI/UX"
+          ],
+          "live_link": "#",
+          "code_link": "#"
+        }
+      ]
+    },
+    {
+      "sectionId": "publication",
+      "sectionTitle": "Publications",
+      "list": [
+        {
+          "title": "bb",
+          "description": "bb",
+          "company": "bb",
+          "from": "2025",
+          "to": "2026"
+        }
+      ]
     }
   ]
 }
