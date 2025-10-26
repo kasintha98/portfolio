@@ -2,7 +2,7 @@
   "personal": {
     "name": "Kasintha Hiripitiya",
     "title": "Full Stack Developer",
-    "profile_image": "/img/profile.jpeg",
+    "profile_image": "./img/profile.jpeg",
     "email": "hello@alexdoe.com",
     "social_links": {
       "github": "https://github.com/kasintha98",
