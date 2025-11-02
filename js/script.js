@@ -24,15 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-
-
-
-
     loadPortfolioData();
-
-
-
-
 });
 
 // --- Dynamic Content Loading ---
@@ -65,6 +57,11 @@ const populateUI = (data) => {
 
     // About Section
     document.getElementById('about-text').textContent = data.about;
+    const cvDownloadButton = document.getElementById('download-cv');
+    if (data.cv && cvDownloadButton) {
+        cvDownloadButton.style.display = "block";
+        cvDownloadButton.href = data.cv;
+    }
 
     // Main Sections
     const mainSectionHolder = document.getElementById('main-sections');
@@ -103,8 +100,13 @@ const populateUI = (data) => {
                     </div>
                 </div>
             </div>`).join('');
+
+            //Add link to navbar
+
         }
     }
+
+    addNavbarLinks(sectionsData);
 
     // Skills Section
     const skillsContainer = document.getElementById('skills-container');
@@ -140,4 +142,35 @@ const addSectionObservers = () => {
     sections.forEach(section => {
         observer.observe(section);
     });
+}
+
+const addNavbarLinks = (sectionsData) => {
+    const navLinkListElement = document.getElementById('nav-link-list');
+    if (!navLinkListElement || !sectionsData) {
+        return;
+    }
+    navLinkListElement.innerHTML = "";
+
+    //About
+    let aboutLi = document.createElement("li");
+    aboutLi.innerHTML = `<a href="#about">About</a>`;
+    navLinkListElement.appendChild(aboutLi);
+
+    for (let section of sectionsData) {
+        if (section.sectionId) {
+            let liElement = document.createElement("li");
+            liElement.innerHTML = `<a href="#${section.sectionId}">${section.sectionTitle}</a>`;
+            navLinkListElement.appendChild(liElement);
+        }
+    }
+
+    //Skills
+    let skillsLi = document.createElement("li");
+    skillsLi.innerHTML = `<a href="#skills">Skills</a>`;
+    navLinkListElement.appendChild(skillsLi);
+
+    //Contact
+    let contactLi = document.createElement("li");
+    contactLi.innerHTML = `<a href="#contact">Contact</a>`;
+    navLinkListElement.appendChild(contactLi);
 }

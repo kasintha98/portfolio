@@ -3,12 +3,13 @@
     "name": "Kasintha Hiripitiya",
     "title": "Full Stack Developer",
     "profile_image": "./img/profile.jpeg",
-    "email": "hello@alexdoe.com",
+    "email": "kasinthakalhara@gmail.com",
     "social_links": {
       "github": "https://github.com/kasintha98",
       "linkedin": "https://www.linkedin.com/in/kasintha-kalhara-hiripitiya/"
     }
   },
+  "cv": "./docs/CV.pdf",
   "about": "I'm a passionate web developer with a knack for creating beautiful, functional, and user-centered digital experiences. With a strong foundation in front-end technologies, I specialize in turning complex problems into elegant, interactive solutions. I love to bring ideas to life in the browser.",
   "skills": [
     "HTML5",
@@ -49,7 +50,7 @@
     },
     {
       "sectionId": "projects",
-      "sectionTitle": "My Projects",
+      "sectionTitle": "Projects",
       "isGridList": true,
       "list": [
         {
