@@ -249,6 +249,10 @@ input:checked+.slider:before {
     transform: scale(1.2);
 }
 
+#about-text {
+    text-align: center;
+}
+
 /* --- Projects Section --- */
 .projects-grid {
     display: grid;
@@ -263,6 +267,7 @@ input:checked+.slider:before {
     overflow: hidden;
     box-shadow: var(--shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .project-card:hover {

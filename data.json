@@ -10,15 +10,17 @@
     }
   },
   "cv": "./docs/CV.pdf",
-  "about": "I'm a passionate web developer with a knack for creating beautiful, functional, and user-centered digital experiences. With a strong foundation in front-end technologies, I specialize in turning complex problems into elegant, interactive solutions. I love to bring ideas to life in the browser.",
+  "about": "I'm a Full Stack Developer with a versatile skill set. I craft engaging interfaces using the MERN stack (MongoDB, Express, React, Node.js), as well as foundational HTML, CSS, and JavaScript. My back-end expertise extends to Java and PHP, allowing me to build and maintain a wide variety of scalable, server-side solutions. I enjoy tackling the full scope of a project, from the database to the UI.",
   "skills": [
     "HTML5",
-    "CSS3 & Sass",
+    "CSS3",
     "JavaScript (ES6+)",
     "React",
     "Node.js",
-    "UI/UX Design",
-    "Responsive Design",
+    "MongoDB",
+    "Express.js",
+    "Java",
+    "PHP",
     "Git & GitHub"
   ],
   "sections": [
@@ -27,11 +29,24 @@
       "sectionTitle": "Work Experience",
       "list": [
         {
-          "title": "a",
-          "description": "aa",
-          "company": "aa",
-          "from": "2025",
-          "to": "2026"
+          "title": "Working Student",
+          "description": "In my role as a Working Student Full Stack Developer, I supported the development team across the entire stack. I handled front-end tasks using HTML, CSS, and React, and contributed to back-end development and maintenance using the MERN stack (MongoDB, Express, Node.js), as well as Java and PHP.",
+          "company": "Flumina GmbH",
+          "from": "2025.04"
+        },
+        {
+          "title": "Full Stack Developer: Remote",
+          "description": "As a Remote Full Stack Developer, I built and maintained features across the entire stack. I used React, HTML, and CSS for the front-end, and the MERN stack, Java, and PHP for back-end systems and APIs.",
+          "company": "Flumina GmbH",
+          "from": "2023.01",
+          "to": "2025.04"
+        },
+        {
+          "title": "Software Engineer Intern",
+          "description": "In my role as a Software Engineer Intern, I supported development using Java and Python. My responsibilities included working with the Rasa framework to develop and maintain conversational AI solutions.",
+          "company": "CodeGen International",
+          "from": "2021.08",
+          "to": "2022.02"
         }
       ]
     },
@@ -40,11 +55,17 @@
       "sectionTitle": "Education",
       "list": [
         {
-          "title": "bb",
-          "description": "bb",
-          "company": "bb",
-          "from": "2025",
-          "to": "2026"
+          "title": "MSc. in Software Engineering",
+          "description": "Pursuing a Master's degree in Software Engineering, focusing on advanced software development methodologies, system design, and project management to enhance my skills as a full stack developer.",
+          "company": "Stiftung Universität Hildesheim",
+          "from": "2025.04"
+        },
+        {
+          "title": "Bsc. in Management and Information Technology",
+          "description": "Completed a Bachelor's degree in Management and Information Technology with First Class Honours (3.84/4.00 GPA). This provided me a strong foundation in both business principles and IT, preparing me for a career in software development.",
+          "company": "University of Kelaniya",
+          "from": "2019.02",
+          "to": "2023.04"
         }
       ]
     },
