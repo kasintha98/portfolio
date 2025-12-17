@@ -82,6 +82,15 @@ h2 {
     color: var(--background);
 }
 
+.light-link{
+    color: var(--text);
+}
+
+.light-link:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}
+
 .content-section {
     max-width: 1100px;
     margin: 0 auto;
@@ -287,6 +296,9 @@ input:checked+.slider:before {
 
 .project-tags {
     margin: 0.5rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .project-tags span {
@@ -295,7 +307,6 @@ input:checked+.slider:before {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 0.8rem;
-    margin-right: 5px;
 }
 
 .project-links a {

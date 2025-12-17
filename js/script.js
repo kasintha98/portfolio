@@ -97,6 +97,7 @@ const populateUI = (data) => {
                     <div class="project-links">
                         ${element.live_link ? '<a href="' + element.live_link + '" target="_blank">View Live</a>' : ""}
                         ${element.code_link ? '<a href="' + element.code_link + '" target="_blank">View Code</a>' : ""}
+                        ${element.link ? '<a href="' + element.link + '" target="_blank">View</a>' : ""}
                     </div>
                 </div>
             </div>`).join('');
@@ -116,6 +117,8 @@ const populateUI = (data) => {
 
     // Contact Section
     document.getElementById('contact-email').href = `mailto:${data.personal.email}`;
+    document.getElementById('contact-email-text').href = `mailto:${data.personal.email}`;
+    document.getElementById('contact-email-text').textContent = data.personal.email;
 
     // --- Scroll Animations ---
     addSectionObservers();

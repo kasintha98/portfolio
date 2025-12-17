@@ -9,18 +9,30 @@
       "linkedin": "https://www.linkedin.com/in/kasintha-kalhara-hiripitiya/"
     }
   },
-  "cv": "./docs/CV.pdf",
-  "about": "I'm a Full Stack Developer with a versatile skill set. I craft engaging interfaces using the MERN stack (MongoDB, Express, React, Node.js), as well as foundational HTML, CSS, and JavaScript. My back-end expertise extends to Java and PHP, allowing me to build and maintain a wide variety of scalable, server-side solutions. I enjoy tackling the full scope of a project, from the database to the UI.",
+  "cv": "./docs/Kasintha Kalhara Hiripitiya CV.pdf",
+  "about": "I am a detail-oriented full stack software engineer based in Hildesheim, Germany, with 4 years of experience building web applications using React, Node.js, Express, and Java. I focus on clean, scalable systems and reliable REST APIs, with strong experience in MongoDB and MySQL, automated testing (Jest, JUnit), and CI/CD using Docker and GitHub Actions. Currently, I am pursuing an M.Sc. in Software Engineering at the University of Hildesheim.",
   "skills": [
     "HTML5",
     "CSS3",
-    "JavaScript (ES6+)",
+    "JavaScript",
+    "TypeScript",
     "React",
     "Node.js",
     "MongoDB",
+    "MySQL",
     "Express.js",
     "Java",
     "PHP",
+    "Redux",
+    "jQuery",
+    "Bootstrap",
+    "MUI (Material UI)",
+    "REST APIs",
+    "Maven",
+    "Spring Boot",
+    "Jest",
+    "JUnit",
+    "Jira",
     "Git & GitHub"
   ],
   "sections": [
@@ -29,21 +41,22 @@
       "sectionTitle": "Work Experience",
       "list": [
         {
-          "title": "Working Student",
-          "description": "In my role as a Working Student Full Stack Developer, I supported the development team across the entire stack. I handled front-end tasks using HTML, CSS, and React, and contributed to back-end development and maintenance using the MERN stack (MongoDB, Express, Node.js), as well as Java and PHP.",
+          "title": "Software Engineer (Working Student - Hybrid)",
+          "description": "In my role as a Working Student Software Engineer, I supported the development team across the entire stack. I handled front-end tasks using HTML, CSS, and React, and contributed to back-end development and maintenance using the MERN stack (MongoDB, Express, Node.js), as well as Java, Maven and PHP.",
           "company": "Flumina GmbH",
-          "from": "2025.04"
+          "from": "2025.04",
+          "to": "2025.12"
         },
         {
-          "title": "Full Stack Developer: Remote",
-          "description": "As a Remote Full Stack Developer, I built and maintained features across the entire stack. I used React, HTML, and CSS for the front-end, and the MERN stack, Java, and PHP for back-end systems and APIs.",
+          "title": "Software Engineer (Full-Time - Remote)",
+          "description": "As a Remote Software Engineer, I built and maintained features across the entire stack. I used React, HTML, CSS, JavaScript, and jQuery for the front-end, and the MERN stack, Java, Maven and PHP for back-end systems and APIs. I also developed and maintained efficient ETL processes for high-volume MQTT message streams originating from Industrial IoT (IIoT) devices to ensure real-time data availability.",
           "company": "Flumina GmbH",
           "from": "2023.01",
           "to": "2025.04"
         },
         {
-          "title": "Software Engineer Intern",
-          "description": "In my role as a Software Engineer Intern, I supported development using Java and Python. My responsibilities included working with the Rasa framework to develop and maintain conversational AI solutions.",
+          "title": "Trainee Software Engineer",
+          "description": "In my role as a Trainee Software Engineer, I supported development mainly using Java, SpringBoot and Python. My responsibilities included working with the Rasa framework to develop and maintain conversational AI solutions. Developing new features based on Fuzzy matchers and Sentiment Analysis techniques to enhance chatbot interactions. Additionally, I contributed to back-end development tasks and assisted in maintaining existing systems.",
           "company": "CodeGen International",
           "from": "2021.08",
           "to": "2022.02"
@@ -58,7 +71,8 @@
           "title": "MSc. in Software Engineering",
           "description": "Pursuing a Master's degree in Software Engineering, focusing on advanced software development methodologies, system design, and project management to enhance my skills as a full stack developer.",
           "company": "Stiftung Universität Hildesheim",
-          "from": "2025.04"
+          "from": "2025.04",
+          "to": "Present"
         },
         {
           "title": "Bsc. in Management and Information Technology",
@@ -75,40 +89,44 @@
       "isGridList": true,
       "list": [
         {
-          "title": "Project One",
-          "description": "A responsive e-commerce website built with modern front-end technologies to provide a seamless shopping experience.",
-          "image": "https://picsum.photos/400",
+          "title": "E-Commerce Web Application",
+          "description": "A responsive Food Store E-Commerce web application that lets customers browse products by category, search and filter items, view detailed product pages, add to cart, and complete checkout with secure payment integration. It includes user authentication, address management, order tracking, and automated email confirmations. An admin dashboard supports product and inventory management, pricing, order fulfillment, and basic analytics for sales and customer activity.",
+          "image": "./img/P1.jpg",
           "tags": [
-            "JavaScript",
             "React",
-            "CSS"
+            "Redux",
+            "React Bootstrap",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
           ],
-          "live_link": "#",
-          "code_link": "#"
+          "live_link": "",
+          "code_link": ""
         },
         {
-          "title": "Project Two",
-          "description": "An interactive data visualization dashboard that displays real-time analytics using D3.js and a custom API.",
-          "image": "https://picsum.photos/400",
+          "title": "Travel Management System",
+          "description": "A Travel Management System that streamlines searching, booking, and managing trips across hotels, and tour packages. Users can browse and filter options, view itineraries, reserve services, and manage bookings with cancellations. The platform includes user accounts, secure payments, automated confirmations, and notifications.",
+          "image": "./img/P2.jpg",
           "tags": [
-            "API",
-            "D3.js",
-            "Dashboard"
+            "Angular",
+            "Java",
+            "Spring Boot",
+            "MySQL"
           ],
-          "live_link": "#",
-          "code_link": "#"
+          "live_link": "",
+          "code_link": ""
         },
         {
-          "title": "Project Three",
-          "description": "A sleek and modern landing page for a startup, focusing on performance and clean UI/UX design.",
-          "image": "https://picsum.photos/400",
+          "title": "Food Ordering Platform",
+          "description": "A Food Ordering Platform consisting of a customer facing web app and an admin app to manage daily operations. Customers can browse restaurants and menus, customize items, place orders, pay securely, and track delivery status in real time with notifications. The admin app enables restaurant onboarding, menu and pricing management, order processing, delivery coordination, promo codes, and reporting dashboards to monitor sales and customer activity.",
+          "image": "./img/P3.jpg",
           "tags": [
-            "HTML",
-            "CSS",
-            "UI/UX"
+            "React",
+            "Redux",
+            "React Bootstrap"
           ],
-          "live_link": "#",
-          "code_link": "#"
+          "live_link": "",
+          "code_link": ""
         }
       ]
     },
@@ -117,11 +135,12 @@
       "sectionTitle": "Publications",
       "list": [
         {
-          "title": "bb",
-          "description": "bb",
-          "company": "bb",
-          "from": "2025",
-          "to": "2026"
+          "title": "K. K. Hiripitiya and P.P.G. Dinesh Asanka, “Identifying Named Entity Recognition for Customized Corpus of Sinhala News Articles Using Deep Learning,” in Proceedings of the 14th Symposium on Applied Science, Business & Industrial Research – 2022, ISBN 978-624-5564-78-1, ISSN 2989-0683, 2022.",
+          "description": "Sinhala is used by the majority of Sri Lankans for their daily activities, and in activities that involve text, efficient information extraction plays a significant role. To address this problem, we can use text-processing techniques. Named Entity Recognition (NER) is one of the important text processing techniques, and it is used to extract important information like persons, organizations, and locations from texts automatically. Developing NER systems requires manually annotated data, including text with manually located and classified named entity tags. Many studies have been done for languages like English, Russian, and Spanish to develop NER systems. But when it comes to the Sinhala language, there is a handful of research done so far because of limited resources. Most of this research have not used the latest technologies available for NER. Therefore, it becomes necessary to assess the effects of deep learning techniques on Named Entity Recognition for the Sinhala language. Hence, this study aims to develop a Sinhala news article-specific NER system using deep learning models XLM-RoBERTa and Spacy CNN and to create a comprehensive Sinhala news corpus. Multiple experiments were executed to evaluate the outcome of this system using different feature combinations. The combination of Gazetteer Matcher, Fuzzy Matcher, Spacy Model, and XLM-RoBERTa gave the highest Precision, Recall, F1 score, and Accuracy when considering all experiments with 76% F1 score and 66% Accuracy. The research has also demonstrated the significant impact of using deep learning models for Sinhala NER, and the results can be applied to various real-world applications.",
+          "company": "",
+          "from": "",
+          "to": "",
+          "link": "https://asbires.wyb.ac.lk/wp-content/uploads/2023/11/ASBIRES-2022-Proceedings-w-c.pdf"
         }
       ]
     }
