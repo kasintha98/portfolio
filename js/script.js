@@ -98,6 +98,9 @@ const populateUI = (data) => {
                         ${element.live_link ? '<a href="' + element.live_link + '" target="_blank">View Live</a>' : ""}
                         ${element.code_link ? '<a href="' + element.code_link + '" target="_blank">View Code</a>' : ""}
                         ${element.link ? '<a href="' + element.link + '" target="_blank">View</a>' : ""}
+                        <div>
+                            ${renderLinks(element.links)}
+                        </div>
                     </div>
                 </div>
             </div>`).join('');
@@ -176,4 +179,17 @@ const addNavbarLinks = (sectionsData) => {
     let contactLi = document.createElement("li");
     contactLi.innerHTML = `<a href="#contact">Contact</a>`;
     navLinkListElement.appendChild(contactLi);
+}
+
+const renderLinks = (links) => {
+    if (!links || !Array.isArray(links)) {
+        return "";
+    }
+
+    return links.map(link => `
+        <p>${link.label}:</p>
+        ${link.live_link ? '<a href="' + link.live_link + '" target="_blank">View Live</a>' : ""}
+        ${link.code_link ? '<a href="' + link.code_link + '" target="_blank">View Code</a>' : ""}
+        <br/>
+    `).join('');
 }

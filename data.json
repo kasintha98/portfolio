@@ -101,11 +101,28 @@
             "MongoDB"
           ],
           "live_link": "",
-          "code_link": ""
+          "code_link": "",
+          "links": [
+            {
+              "label": "Client App",
+              "live_link": "https://burger-freaks-client-app-new.vercel.app/",
+              "code_link": "https://github.com/kasintha98/BurgerFreaks-ClientApp-NEW"
+            },
+            {
+              "label": "Admin App",
+              "live_link": "https://burger-freaks-admin-app-new.vercel.app/",
+              "code_link": "https://github.com/kasintha98/BurgerFreaks-AdminApp-NEW"
+            },
+            {
+              "label": "Backend",
+              "live_link": "",
+              "code_link": "https://github.com/kasintha98/BurgerFreaks-Backend-NEW"
+            }
+          ]
         },
         {
           "title": "Travel Management System",
-          "description": "A Travel Management System that streamlines searching, booking, and managing trips across hotels, and tour packages. Users can browse and filter options, view itineraries, reserve services, and manage bookings with cancellations. The platform includes user accounts, secure payments, automated confirmations, and notifications.",
+          "description": "A Travel Management System that streamlines searching, booking, and managing trips across hotels, and tour packages. Users can browse and filter options, view itineraries, reserve services, and manage bookings with cancellations. The platform includes user accounts, secure payments, automated confirmations, and notifications. The system also supports adding hotel contracts and allows users to select specific room types to customize their accommodation.",
           "image": "./img/P2.jpg",
           "tags": [
             "Angular",
@@ -114,7 +131,7 @@
             "MySQL"
           ],
           "live_link": "",
-          "code_link": ""
+          "code_link": "https://github.com/kasintha98/SunTravelFull"
         },
         {
           "title": "Food Ordering Platform",
@@ -126,7 +143,19 @@
             "React Bootstrap"
           ],
           "live_link": "",
-          "code_link": ""
+          "code_link": "",
+          "links": [
+            {
+              "label": "Client App",
+              "live_link": "",
+              "code_link": "https://github.com/kasintha98/Food_Platform-Client-Fronend"
+            },
+            {
+              "label": "Admin App",
+              "live_link": "",
+              "code_link": "https://github.com/kasintha98/Food_Platform-Admin-Frontend"
+            }
+          ]
         }
       ]
     },
